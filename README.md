@@ -1,2 +1,2 @@
 # JS-Chai-or-Code-
-Learn Javascript
+Learn Javascript & Github
