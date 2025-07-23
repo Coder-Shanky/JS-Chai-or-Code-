@@ -10,9 +10,24 @@ let accountState;
 Prefer not to use var
 becasue of issue in Block Scope & Functional Scope 
 */
+// 
+// accountEmail = "sk12@gmail.com"
+// accountPassword = "0000"
+// accountCity = "Punjab"
 
-accountEmail = "sk12@gmail.com"
-accountPassword = "0000"
-accountCity = "Punjab"
+// console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);//
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+
+const userId = 3007
+let userEmail = "john@gmail.com"
+var userPassword = "123456"
+userCity = "Delhi"
+let userState;
+
+console.log(userId);
+
+console.table([userEmail, userPassword, userCity, userState]);
+
+
+
+
