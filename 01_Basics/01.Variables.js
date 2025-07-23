@@ -26,8 +26,31 @@ let userState;
 
 console.log(userId);
 
-console.table([userEmail, userPassword, userCity, userState]);
+console.table([userEmail, userPassword, userCity, userState]); 
 
 
+const studentId = 202501;
+let studentName = "Nick";
+let studentAge = 21;
+let studentCity = "Rohini";
+let studentState = "Delhi";
+
+console.table([studentId, studentName, studentAge, studentCity, studentState]);
+
+
+
+
+
+
+const employeeId = 20090105;
+let employeeName = "Ben"
+let employeeAge = 37;
+let employeeCity = "Dublin"
+let employeeCurrentCity = "Cork" 
+let employeeEmail = "ben101@gmail,.com";
+let employeeSalary = "500Euros"
+let employeeYearofexperience = "7Years";
+
+console.table([employeeId,employeeName,employeeAge,employeeCity,employeeCurrentCity,employeeEmail,employeeSalary, employeeYearofexperience]);
 
 
